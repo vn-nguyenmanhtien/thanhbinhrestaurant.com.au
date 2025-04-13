@@ -130,7 +130,7 @@ function Products() {
                                         <div className='info'>
                                             <h3>{name}</h3>
                                             <p>{title_description?.length > 100 ? title_description.substring(0, 100).trimEnd() + '...' : title_description}</p>
-                                            <div className='d-flex justify-content-between'>
+                                            <div className='d-flex justify-content-between box-bottom'>
                                                 <div className='price'>
                                                     {price}
                                                 </div>
