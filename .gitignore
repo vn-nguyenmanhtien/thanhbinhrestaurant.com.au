@@ -1,0 +1,22 @@
+.DS_Store
+/node_modules
+/public/hot
+/public/storage
+/storage/**
+/vendor
+/app.env
+/app.env.backup
+/app.phpunit.result.cache
+/appdocker-compose.override.yml
+/appHomestead.json
+/appHomestead.yaml
+/appnpm-debug.log
+/appyarn-error.log
+/.idea
+/.vscode
+
+# docker
+/database
+
+.env
+

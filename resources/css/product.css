@@ -1,0 +1,65 @@
+  .musicList {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .music {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .star {
+    margin-left: 5px;
+    color: gold;
+  }
+  
+  .favorites {
+    box-sizing: border-box;
+    width: 60%;
+    padding: 10px;
+    background-color: rgb(94, 86, 74);
+  }
+  
+  .list-item {
+    padding: 10px;
+  }
+  
+  .fade-enter {
+    max-height: 0;
+    opacity: 0;
+  }
+  
+  .fade-enter-active {
+    max-height: 30px;
+    opacity: 1;
+
+    /* transform:translateX(0);
+    transition: opacity 600ms, transform 600ms; */
+
+    /* transform: rotateY(-90deg); */
+
+    /* transition: all 0.5s cubic-bezier(.36,-0.64,.34,1.76); */
+  }
+  
+  .fade-exit {
+    max-height: 30px;
+    opacity: 1;
+    /* transform:translateX(0); */
+  }
+  
+  .fade-exit-active {
+    max-height: 0;
+    opacity: 0;
+
+    transition: opacity 400ms ease-in-out,
+    /* transform:translateX(-100%);
+    transition: opacity 700ms, transform 700ms; */
+
+    /* transition: opacity 1050ms ease-in; */
+
+    /* transform: rotateY(-90deg);
+    transition: all 0.5s cubic-bezier(.36,-0.64,.34,1.76); */
+  }
+  
