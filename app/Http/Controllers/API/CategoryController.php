@@ -20,7 +20,7 @@ class CategoryController extends Controller
             
             if ($categorires) {
                 $firstCategoryId = $categorires->first()->id;
-                $products = Product::where('category_id', $categorires->first()->id)->paginate(Product::ITEM_OF_PAGE);
+                $products = Product::where('category_id', $categorires->first()->id)->orderBy("sort_number")->paginate(Product::ITEM_OF_PAGE);
             }
 
             $result = [
