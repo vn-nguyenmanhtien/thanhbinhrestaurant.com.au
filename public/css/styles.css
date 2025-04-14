@@ -765,11 +765,11 @@ header {
 	}
 
 	.menu .menu__sidebar--items li {
-		height: 51px;
-    width: 7rem;
-    margin-left: 2px;
-    display: flex;
-    align-items: center;
+		height: 50px;
+		width: 10rem;
+		margin-left: 2px;
+		display: flex;
+		align-items: center;
 	}
 
 	.products {

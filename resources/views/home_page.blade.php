@@ -5,8 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         <title>
-            @yield('page_title', setting('site.title') . " - " .
-            setting('site.description'))
+            Vietnamese Cuisine - Thanh Bình Restaurent
         </title>
 	<link rel="icon" type="image/x-icon" href="/storage/settings/July2022/gqUw5wHXc9YsreJxXass.png">
         <!-- Fonts -->
@@ -764,7 +763,10 @@
                                                     <h4 class="header-banner-title">
                                                         {{ setting('site-header.header_banner_1') }}
                                                     </h4>
-                                                    <p>{{setting('site-header.header_banner_2')}}</p>
+                                                    <p>
+                                                        Vietnamese 
+                                                        Cuisine
+                                                    </p>
                                                     <button
                                                         class="btn btn-lg btn-outline-primary scroll-to d-flex flex-nowrap"
                                                         data-target="target-menu" title="Menu">
@@ -869,7 +871,7 @@
                         <div class="container menu target-menu">
                             <div class="menu__head row">
                                 <div class="col-2">
-                                    <h3 class="d-flex flex-row">Menu</h3>
+                                    <h3 class="d-flex flex-row">Menuuu</h3>
                                 </div>
                                 
                                 <div class="col-10">
