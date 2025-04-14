@@ -493,9 +493,10 @@ header {
 } */
 
 .products .box {
+	padding-bottom: 20px;
 	border-radius: 30px;
 	overflow: hidden;
-	height: 450px;
+	min-height: 450px;
 	background-color: rgba(78, 76, 76, .3);
 }
 
@@ -850,7 +851,9 @@ header {
 */
 
 @media (min-width: 1281px) {
-  
+	.products .box {
+		padding-bottom: 20px !important;
+	}
 	/* CSS */
 	
   }
