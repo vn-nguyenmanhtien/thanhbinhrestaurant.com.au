@@ -871,7 +871,7 @@
                         <div class="container menu target-menu">
                             <div class="menu__head row">
                                 <div class="col-2">
-                                    <h3 class="d-flex flex-row">Menuuu</h3>
+                                    <h3 class="d-flex flex-row">Menu</h3>
                                 </div>
                                 
                                 <div class="col-10">
