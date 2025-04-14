@@ -132,7 +132,7 @@ function Products() {
                                             <p>{title_description?.length > 100 ? title_description.substring(0, 100).trimEnd() + '...' : title_description}</p>
                                             <div className='d-flex justify-content-between box-bottom'>
                                                 <div className='price'>
-                                                    {price}
+                                                    {price ? `$${price}` : ''}
                                                 </div>
                                                 <button className='btn btn-outline-primary view-image d-flex flex-nowrap' 
                                                         type="button" data-bs-toggle="modal" data-bs-target="#productDetail"

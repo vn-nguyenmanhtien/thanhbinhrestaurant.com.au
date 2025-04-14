@@ -352,7 +352,9 @@ header {
 	}
 
 	.info {
-		padding-top: 20px;
+		padding: 0 12px 0 12px !important;
+		height: 270px !important;
+		position: relative !important;
 	}
 
 	.info .social a {
@@ -362,6 +364,20 @@ header {
 
 	.info .social a img {
 		width: 20px;
+	}
+
+	.products .box {
+		height: 360px !important;
+	}
+
+	.products .box h3 {
+		margin-top: 15px !important;
+	}
+	
+	.products .box .info .box-bottom {
+		position: absolute !important;
+		bottom: 5px !important;
+		width: 85% !important;
 	}
 }
 
