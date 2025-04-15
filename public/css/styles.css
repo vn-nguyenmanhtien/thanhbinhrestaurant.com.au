@@ -363,7 +363,8 @@ header {
 	}
 
 	.products .box {
-		height: 370px !important;
+		height: 375px !important;
+		min-height: 375px !important;
 	}
 
 	.products .box h3 {
@@ -375,8 +376,8 @@ header {
 		bottom: 65px !important;
 		/* width: 81% !important; */
 		flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        justify-content: start !important;
+        /* align-items: center; */
 	}
 
 	.products .box .price {
